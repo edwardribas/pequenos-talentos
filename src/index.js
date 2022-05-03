@@ -35,9 +35,12 @@ import leticia from './assets/img/padrinhos/leticia.png';
 import nayara from './assets/img/padrinhos/nayara.png';
 import pedro from './assets/img/padrinhos/pedronicolas.png';
 import ribas from './assets/img/padrinhos/ribas.png';
+import raissa from './assets/img/padrinhos/raissa.png';
+import davi from './assets/img/padrinhos/davi.png';
+import andrey from './assets/img/padrinhos/andrey.png';
 
 export {camille, fernando, giovana, gustavo, izabelli, lawrence, lucas, marjory, matheus, micaela, ricardo, sabrina, stephany, thalys, thiago,
-sampaio, gabryel, giovanna, gustavosilverio, larissa, julia, laura, leticia, nayara, pedro, ribas};
+sampaio, gabryel, giovanna, gustavosilverio, larissa, julia, laura, leticia, nayara, pedro, ribas, raissa, davi, andrey};
 
 const root = ReactDOM.createRoot(document.querySelector("#root"));
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Title from '../components/title';
 import {camille, fernando, giovana, gustavo, izabelli, lawrence, lucas, marjory, matheus, micaela, ricardo, sabrina, stephany, thalys, thiago,
-sampaio, gabryel, giovanna, gustavosilverio, larissa, julia, laura, leticia, nayara, pedro, ribas} from '../index.js';
+sampaio, gabryel, giovanna, gustavosilverio, larissa, julia, laura, leticia, nayara, pedro, ribas, raissa, davi, andrey} from '../index.js';
 
 // Aluno
 const Aluno = props => {
@@ -144,6 +144,18 @@ export default function Participantes () {
                         <Aluno
                             src={pedro} name="Pedro Nicolas"
                             desc="Oi! Tudo bem? Tenho 16 anos de idade e atualmente curso Técnico em Informática para Internet na ETEC Profª. Maria Cristina Medeiros e estou vendo diversas coisas legais por lá! Aprendo tecnologias como HTML, CSS, JavaScript e PHP. Tem sido muito legal participar desse mega projeto e me dá ainda mais certeza de que devo seguir na área! Amo sair com meus amigos, ler livros e assistir séries."
+                        />
+                        <Aluno
+                            src={raissa} name="Raíssa Bespalec"
+                            desc='Oi, pessoal! Eu tenho 16 anos e atualmente estou no 2º ano de informática para a internet na ETEC MCM. Amo programar, ler, viajar, comer e ir para a igreja. Minha meta é conseguir trabalhar nessa área de informática logo cedo e seguir na carreira até me aposentar. Curto demais ser madrinha, pois eu amo ajudar, ainda mais se for em algo que é a minha paixão. Espero muito que os "pequenos" aproveitem a oportunidade que estão sendo lhe dadas.'
+                        />
+                        <Aluno
+                            src={davi} name="Davi Benatti"
+                            desc='Olá! Eu tenho 16 anos e estou atualmente no 2º ano do Ensino Médio integrado a Técnico em Informática na ETEC MCM. Amo aprender diversas coisas novas e conversar sobre isso com os meus amigos. Tenho altas expectativas a respeito desse projeto e espero que, do mesmo jeito que eu auxilie os pequenos, aprenda muito com essa experiência.'
+                        />
+                        <Aluno
+                            src={andrey} name="Andrey Viana"
+                            desc='Oi! Tenho 17 anos e no momento, curso o 2º ano do Ensino Médio integrado a Informática para Internet na ETEC MCM. Estou gostando demais da experiência de poder ajudar e despertar o interesse na área da programação dos pequenos. Espero poder contribuir muito ainda com esse projeto e que eu também venha a aprender bastante com cada experiência.'
                         />
                     </div>
                 </div>
