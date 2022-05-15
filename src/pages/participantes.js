@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Title from '../components/title';
 import {camille, fernando, giovana, gustavo, izabelli, lawrence, lucas, marjory, matheus, micaela, ricardo, sabrina, stephany, thalys, thiago,
-sampaio, gabryel, giovanna, gustavosilverio, larissa, julia, laura, leticia, nayara, pedro, ribas, raissa, davi, andrey} from '../index.js';
+sampaio, gabryel, giovanna, gustavosilverio, larissa, julia, laura, leticia, nayara, pedro, ribas, raissa, davi, andrey, rafael} from '../index.js';
 
 // Aluno
 const Aluno = props => {
@@ -156,6 +156,10 @@ export default function Participantes () {
                         <Aluno
                             src={andrey} name="Andrey Viana"
                             desc='Oi! Tenho 17 anos e no momento, curso o 2º ano do Ensino Médio integrado a Informática para Internet na ETEC MCM. Estou gostando demais da experiência de poder ajudar e despertar o interesse na área da programação dos pequenos. Espero poder contribuir muito ainda com esse projeto e que eu também venha a aprender bastante com cada experiência.'
+                        />
+                        <Aluno
+                            src={rafael} name="Rafael Lima"
+                            desc='Eu tenho 16 anos, estudo na Etec MCM e curso o 2º ano do Ensino Médio. Entrar para esse projeto está sendo uma experiência inovadora, pois é realmente legal auxiliar para o desenvolvimento do futuro e contribuir para que os pequenos sejam os profissionais que o mercado de trabalho tanto precisa. Tenho ótimas expectativas sobre esse projeto!'
                         />
                     </div>
                 </div>
