@@ -1,6 +1,6 @@
 ### Small Talents 
 
 That's a landing page I made for a project I've been participating.\
-To see the page's preview, visit [this link](https://git-smalltalents.netlify.com).
+To access the page, just [click here](https://pequenostalentos.tecnologiaunica.com.br/).
 
 For this project, I used ReactJS for the first time.
