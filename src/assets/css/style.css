@@ -123,6 +123,9 @@ section:not(#inicio),
 	margin: 0 auto;
 	padding: 100px 30px 20px;
 }
+section#funcionamento{
+	width: 90%;
+}
 
 /* Sections Titles */
 .title {
