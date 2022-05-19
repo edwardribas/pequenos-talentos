@@ -316,9 +316,11 @@ section .card p {
 
 /* Funcionameto */
 .video-container{
-	margin-top: 40px;
+	margin: 40px auto 0;
 	position: relative;
-	padding-bottom: 56.5%;
+	aspect-ratio: 16/9;
+	width: 100%;
+	max-width: 650px;
 	border-radius: 10px;
 	overflow: hidden;
 }

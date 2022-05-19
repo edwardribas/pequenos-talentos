@@ -34,7 +34,7 @@ export default function funcionamento () {
                 </div>
             </div>
             <div className='video-container'>
-                <iframe src="https://www.youtube.com/embed/brxOxIOhkE0" title="Vídeo de apresentação do projeto"></iframe>
+                <iframe src="https://www.youtube.com/embed/brxOxIOhkE0" title="Vídeo de apresentação do projeto" allow="fullscreen"></iframe>
             </div>
         </section>
     )
