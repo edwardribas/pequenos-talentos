@@ -107,11 +107,11 @@ export default function Participantes () {
                         />
                         <Aluno
                             src={gabryel} name="Gabryel Henrique"
-                            desc='Olá! Tenho 17 anos e estou no 2° ano do Ensino Médio. No meu tempo livre gosto de jogar, ouvir músicas, cozinhar e caminhar. Estou gostando muito de participar do projeto, está sendo uma experiência incrível ajudar os “Pequenos”.'
+                            desc='Tenho 17 anos e estou no 2° ano do Ensino Médio. No meu tempo livre gosto de jogar, ouvir músicas, cozinhar e caminhar. Estou gostando muito de participar do projeto, está sendo uma experiência incrível ajudar os “Pequenos”.'
                         />
                         <Aluno
                             src={sampaio} name="Gabriel Sampaio"
-                            desc="Olá! Tenho 16 anos, curso o 2º ano do Ensino Médio integrado ao Técnico em Informática para Internet na Etec MCM e moro em Mauá. Curto jogar futebol, jogar no computador, programar e conversar com meus amigos. Estou amando o projeto e a experiência de passar o meu conhecimento."
+                            desc="Tenho 16 anos, curso o 2º ano do Ensino Médio integrado ao Técnico em Informática para Internet na Etec MCM e moro em Mauá. Curto jogar futebol, jogar no computador, programar e conversar com meus amigos. Estou amando o projeto e a experiência de passar o meu conhecimento."
                             />
                         <Aluno
                             src={giovanna} name="Giovanna Alves"
@@ -119,43 +119,43 @@ export default function Participantes () {
                         />
                         <Aluno
                             src={gustavosilverio} name="Gustavo Silvério"
-                            desc="Olá! Tenho 16 anos e estou cursando Tecnologia da informação na ETEC MCM. Sonho trabalhar na área de T.I e pretendo ser um Engenheiro de Software no futuro. Em meu tempo vago, normalmente assisto animes ou jogo com meus amigos. Estou achando o projeto incrivel! Tem sido extremamente gratificante poder auxiliar os afilhados, todos são muito legais e atenciosos. Achei incrível a oportunidade que deram a eles."
+                            desc="Tenho 16 anos e estou cursando Tecnologia da informação na ETEC MCM. Sonho trabalhar na área de T.I e pretendo ser um Engenheiro de Software no futuro. Em meu tempo vago, normalmente assisto animes ou jogo com meus amigos. Estou achando o projeto incrivel! Tem sido extremamente gratificante poder auxiliar os afilhados, todos são muito legais e atenciosos. Achei incrível a oportunidade que deram a eles."
                         />
                         <Aluno
                             src={julia} name="Júlia Granado"
-                            desc="Olá! Tenho 16 anos e curso o 2º ano do Ensino Médio. Em meu tempo livre, gosto muito de escutar música e assistir filmes de terror. Minhas metas são adquirir cada vez mais conhecimento sobre a área de informática e realizar viagens para conhecer diversas culturas ao redor do mundo. Estou amando o projeto, principalmente os pequenos. É muito gratificante a sensação de estar inspirando e ensinando eles!"
+                            desc="Tenho 16 anos e curso o 2º ano do Ensino Médio. Em meu tempo livre, gosto muito de escutar música e assistir filmes de terror. Minhas metas são adquirir cada vez mais conhecimento sobre a área de informática e realizar viagens para conhecer diversas culturas ao redor do mundo. Estou amando o projeto, principalmente os pequenos. É muito gratificante a sensação de estar inspirando e ensinando eles!"
                         />
                         <Aluno
                             src={larissa} name="Larissa Mota"
-                            desc='Oi! Tenho 17 anos e curso o 3° ano de Administração integrado ao Ensino Médio na ETEC MCM. Gosto de artes, esportes ao ar livre e de ouvir música. No meu tempo livre, eu escrevo, desenho ou ando de bicicleta. Atualmente, pretendo me graduar em Neurociências e vejo esse projeto como uma oportunidade de aprender mais e ajudar os "Pequenos" a seguir nessa trajetória de conhecimento e visão de vida.'
+                            desc='Tenho 17 anos e curso o 3° ano de Administração integrado ao Ensino Médio na ETEC MCM. Gosto de artes, esportes ao ar livre e de ouvir música. No meu tempo livre, eu escrevo, desenho ou ando de bicicleta. Atualmente, pretendo me graduar em Neurociências e vejo esse projeto como uma oportunidade de aprender mais e ajudar os "Pequenos" a seguir nessa trajetória de conhecimento e visão de vida.'
                         />
                         <Aluno
                             src={laura} name="Laura Esther"
-                            desc="Oii! Tenho 16 anos e atualmente estudo na ETEC Maria Cristina Medeiros cursando o 2° ano de Técnico em Informática integrado ao ensino médio. Gosto muito do meu curso e pretendo seguir na área. No meu tempo livre, gosto de ler, jogar e assistir séries e documentários. Entrei no projeto porque gostei muito da ideia, e na hora quis participar."
+                            desc="Tenho 16 anos e atualmente estudo na ETEC Maria Cristina Medeiros cursando o 2° ano de Técnico em Informática integrado ao ensino médio. Gosto muito do meu curso e pretendo seguir na área. No meu tempo livre, gosto de ler, jogar e assistir séries e documentários. Entrei no projeto porque gostei muito da ideia, e na hora quis participar."
                         />
                         <Aluno
                             src={leticia} name="Letícia Honorio"
-                            desc="Oiii! Tenho 16 anos e estou no 2º ano do Ensino Médio integrado ao técnico de informática para a internet na ETEC Profª. Maria Cristina Medeiros. Quando estou com tempo, gosto de ler, assistir séries de comédia e ouvir músicas. Estou adorando a experiência de fazer parte deste projeto e ajudar os pequenos nos estudos."
+                            desc="Tenho 16 anos e estou no 2º ano do Ensino Médio integrado ao técnico de informática para a internet na ETEC Profª. Maria Cristina Medeiros. Quando estou com tempo, gosto de ler, assistir séries de comédia e ouvir músicas. Estou adorando a experiência de fazer parte deste projeto e ajudar os pequenos nos estudos."
                         />
                         <Aluno
                             src={nayara} name="Nayara Mota"
-                            desc="Olá! Tenho 17 anos e estou cursando o 3° ano do Ensino médio integrado ao curso técnico de Administração  na ETEC Prof. Maria Cristina Medeiros. Meu hobby favorito é jogar futsal. Sou apaixonada pela área de química e gosto também da área de tecnologia. Estou amando fazer parte do projeto, ensinando e auxiliando os pequenos na construção do futuro deles."
+                            desc="Tenho 17 anos e estou cursando o 3° ano do Ensino médio integrado ao curso técnico de Administração  na ETEC Prof. Maria Cristina Medeiros. Meu hobby favorito é jogar futsal. Sou apaixonada pela área de química e gosto também da área de tecnologia. Estou amando fazer parte do projeto, ensinando e auxiliando os pequenos na construção do futuro deles."
                         />
                         <Aluno
                             src={pedro} name="Pedro Nicolas"
-                            desc="Oi! Tudo bem? Tenho 16 anos de idade e atualmente curso Técnico em Informática para Internet na ETEC Profª. Maria Cristina Medeiros e estou vendo diversas coisas legais por lá! Aprendo tecnologias como HTML, CSS, JavaScript e PHP. Tem sido muito legal participar desse mega projeto e me dá ainda mais certeza de que devo seguir na área! Amo sair com meus amigos, ler livros e assistir séries."
+                            desc="Tudo bem? Tenho 16 anos de idade e atualmente curso Técnico em Informática para Internet na ETEC Profª. Maria Cristina Medeiros e estou vendo diversas coisas legais por lá! Aprendo tecnologias como HTML, CSS, JavaScript e PHP. Tem sido muito legal participar desse mega projeto e me dá ainda mais certeza de que devo seguir na área! Amo sair com meus amigos, ler livros e assistir séries."
                         />
                         <Aluno
                             src={raissa} name="Raíssa Bespalec"
-                            desc='Oi, pessoal! Eu tenho 16 anos e atualmente estou no 2º ano de informática para a internet na ETEC MCM. Amo programar, ler, viajar, comer e ir para a igreja. Minha meta é conseguir trabalhar nessa área de informática logo cedo e seguir na carreira até me aposentar. Curto demais ser madrinha, pois eu amo ajudar, ainda mais se for em algo que é a minha paixão. Espero muito que os "pequenos" aproveitem a oportunidade que estão sendo lhe dadas.'
+                            desc='Eu tenho 16 anos e atualmente estou no 2º ano de informática para a internet na ETEC MCM. Amo programar, ler, viajar, comer e ir para a igreja. Minha meta é conseguir trabalhar nessa área de informática logo cedo e seguir na carreira até me aposentar. Curto demais ser madrinha, pois eu amo ajudar, ainda mais se for em algo que é a minha paixão. Espero muito que os "pequenos" aproveitem a oportunidade que estão sendo lhe dadas.'
                         />
                         <Aluno
                             src={davi} name="Davi Benatti"
-                            desc='Olá! Eu tenho 16 anos e estou atualmente no 2º ano do Ensino Médio integrado a Técnico em Informática na ETEC MCM. Amo aprender diversas coisas novas e conversar sobre isso com os meus amigos. Tenho altas expectativas a respeito desse projeto e espero que, do mesmo jeito que eu auxilie os pequenos, aprenda muito com essa experiência.'
+                            desc='Eu tenho 16 anos e estou atualmente no 2º ano do Ensino Médio integrado a Técnico em Informática na ETEC MCM. Amo aprender diversas coisas novas e conversar sobre isso com os meus amigos. Tenho altas expectativas a respeito desse projeto e espero que, do mesmo jeito que eu auxilie os pequenos, aprenda muito com essa experiência.'
                         />
                         <Aluno
                             src={andrey} name="Andrey Viana"
-                            desc='Oi! Tenho 17 anos e no momento, curso o 2º ano do Ensino Médio integrado a Informática para Internet na ETEC MCM. Estou gostando demais da experiência de poder ajudar e despertar o interesse na área da programação dos pequenos. Espero poder contribuir muito ainda com esse projeto e que eu também venha a aprender bastante com cada experiência.'
+                            desc='Tenho 17 anos e no momento, curso o 2º ano do Ensino Médio integrado a Informática para Internet na ETEC MCM. Estou gostando demais da experiência de poder ajudar e despertar o interesse na área da programação dos pequenos. Espero poder contribuir muito ainda com esse projeto e que eu também venha a aprender bastante com cada experiência.'
                         />
                         <Aluno
                             src={rafael} name="Rafael Lima"

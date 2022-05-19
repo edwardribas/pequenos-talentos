@@ -131,7 +131,7 @@ section:not(#inicio),
 }
 .title h2 {
 	display: inline-block;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	color: var(--secondary);
 	font-weight: 600;
 }
@@ -276,9 +276,7 @@ section .card p {
 }
 
 /* Etapas */
-#participantes{
-	text-align: center;
-}
+
 #etapas {
 	padding-bottom: 30px;
 }
@@ -316,7 +314,25 @@ section .card p {
 	box-shadow: 0 20px 25px rgba(0, 0, 0, 0.082);
 }
 
+/* Funcionameto */
+.video-container{
+	margin-top: 40px;
+	position: relative;
+	padding-bottom: 56.5%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+iframe{
+	position: absolute;
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+
 /* Pequenos e Padrinhos */
+#participantes{
+	text-align: center;
+}
 .box-check{
 	display: inline-flex;
 }
