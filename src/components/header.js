@@ -5,7 +5,10 @@ import logoWhite from '../assets/img/logo_white.svg';
 export default function Header(){
 
     const [activeHeader, toggleHeader] = useState('');
-    window.onscroll = () => window.scrollY >= 80 ? toggleHeader('1') : toggleHeader('');
+    window.onscroll = () => {
+        if (window.scrollY >= 70) toggleHeader(1);
+        if (window.scrollY <= 5) toggleHeader(0);
+    }
 
     const [activeMenu, toggleMenu] = useState('');
 

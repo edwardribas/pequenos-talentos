@@ -57,25 +57,31 @@ b {
 /* Header */
 header {
 	user-select: none;
-	position: fixed;
-	left: 0;
+	position: absolute;
+	inset: 0 0 unset 0;
 	z-index: 500;
-	top: 0;
 	width: 100%;
 	background-color: var(--primary);
 	height: 70px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: height 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+	transition: .2s ease;
 }
 header.active {
+	position: fixed;
+	top: 0;
+	transform: translateY(0);
 	background-color: rgb(47, 47, 47);
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.059);
-	height: 60px;
+	animation: showHeader .3s ease;
 }
-header.active nav > a img {
-	max-width: 55px;
+@keyframes showHeader {
+	from{
+		transform: translateY(-70px);
+	}
+	to{
+		transform: translateY(0);
+	}	
 }
 nav {
 	display: flex;
@@ -122,9 +128,6 @@ section:not(#inicio),
 	max-width: 1400px;
 	margin: 0 auto;
 	padding: 100px 30px 20px;
-}
-section#funcionamento{
-	width: 90%;
 }
 
 /* Sections Titles */
@@ -319,7 +322,7 @@ section .card p {
 
 /* Funcionameto */
 .video-container{
-	margin: 40px auto 0;
+	margin: 60px auto 0;
 	position: relative;
 	aspect-ratio: 16/9;
 	width: 100%;
