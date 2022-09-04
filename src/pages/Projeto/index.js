@@ -1,12 +1,13 @@
+import styles from './styles.module.scss';
 import React from 'react';
-import Title from '../components/title.js';
+import Title from '../../components/Title/index.js';
 
 export default function Projeto () {
     return (
-        <section id="projeto">
+        <section id="projeto" className={styles.projeto}>
             <Title section="Proposta"/>
-            <div className="content">
-                <div className="card">
+            <div className={styles.content}>
+                <div className={styles.card}>
                     <h3>Projeto</h3>
 
                     <p>
@@ -20,7 +21,7 @@ export default function Projeto () {
                         exigidas no mundo profissional.
                     </p>
                 </div>
-                <div className="text">
+                <div className={styles.text}>
                     <p>
                         Este é um projeto piloto que inicialmente atende duas escolas estaduais, totalizando 15 alunos.
                         A proposta é:

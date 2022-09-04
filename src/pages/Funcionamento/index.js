@@ -1,12 +1,13 @@
 import React from 'react';
-import Title from '../components/title.js';
+import Title from '../../components/Title/index.js';
+import styles from './styles.module.scss';
 
 export default function funcionamento () {
     return (
         <section id="funcionamento">
             <Title section="Funcionamento"/>
-            <div className="content">
-                <div className="text">
+            <div className={styles.content}>
+                <div className={styles.text}>
                     <p>
                         A APM ETEC MCM será responsável por auxiliar na divulgação do edital de seleção e apresentar o projeto ao 
                         O Grêmio Estudantil e o Laboratório de Aprendizagem Empresa Júnior.</p>                    
@@ -19,7 +20,7 @@ export default function funcionamento () {
                         criação de jogos, aplicativos</b> e <b>robótica</b>.
                     </p>
                 </div>
-                <div className="card">
+                <div className={styles.card}>
                     <h3>Seleção</h3>
 
                     <p>
@@ -33,7 +34,8 @@ export default function funcionamento () {
                     </p>
                 </div>
             </div>
-            <div className='video-container'>
+
+            <div className={styles.video_wrapper}>
                 <iframe src="https://www.youtube.com/embed/brxOxIOhkE0" title="Vídeo de apresentação do projeto" allow="fullscreen"></iframe>
             </div>
         </section>

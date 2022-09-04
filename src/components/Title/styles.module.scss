@@ -1,0 +1,20 @@
+.title {
+	text-align: center;
+	margin-bottom: 40px;
+
+    h2{
+        display: inline-block;
+        font-size: 1.3rem;
+        color: #3e3e3f;
+        font-weight: 600;
+
+        &::after{
+            content: "";
+            display: block;
+            margin: 7px auto;
+            width: 80%;
+            background-color: #404040;
+            height: 2px;
+        }
+    }
+}

@@ -1,11 +1,12 @@
+import './styles.module.scss';
 import React from 'react';
 
 // Sections
-import Hero from '../pages/hero.js';
-import Projeto from '../pages/projeto.js';
-import Etapas from '../pages/etapas.js';
-import Funcionamento from '../pages/funcionamento.js';
-import Participantes from '../pages/participantes.js';
+import Hero from '../Hero';
+import Projeto from '../Projeto';
+import Etapas from '../Etapas';
+import Funcionamento from '../Funcionamento';
+import Participantes from '../Participantes';
 
 export default function Main () {
 

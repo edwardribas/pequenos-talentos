@@ -1,0 +1,42 @@
+.etapas{
+    padding-bottom: 30px;
+
+    > p {
+        text-align: center;
+        margin-top: 70px;
+        color: #404040;
+        font-weight: 200;
+    }
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    
+    p{
+        color: #3e3e3f;
+        font-weight: 200;
+        margin-top: 35px;
+    }
+    
+    svg{
+        font-size: 3rem;
+        color: #3e3e3f;
+    }
+}
+
+.cardItem{
+    background-color: #ffda00;
+    border-radius: 7px;
+    padding: 40px 30px 50px;
+    max-width: 300px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover{
+        transform: translate(0, -4px);
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.082);
+    }
+}

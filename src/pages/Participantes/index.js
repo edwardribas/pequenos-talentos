@@ -1,41 +1,80 @@
 import React, { useState } from 'react';
-import Title from '../components/title';
-import {camille, fernando, giovana, gustavo, izabelli, lawrence, lucas, marjory, matheus, micaela, ricardo, sabrina, stephany, thalys, thiago,
-sampaio, gabryel, giovanna, gustavosilverio, larissa, julia, laura, leticia, nayara, pedro, ribas, raissa, davi, andrey, rafael} from '../index.js';
+import styles from './styles.module.scss';
+import Title from '../../components/Title';
+import {
+    camille, 
+    fernando, 
+    giovana, 
+    gustavo, 
+    izabelli, 
+    lawrence, 
+    lucas, 
+    marjory, 
+    matheus, 
+    micaela, 
+    ricardo, 
+    sabrina, 
+    stephany, 
+    thalys, 
+    thiago,
+    sampaio, 
+    giovanna, 
+    gustavosilverio, 
+    julia, 
+    laura, 
+    leticia, 
+    nayara, 
+    pedro, 
+    ribas, 
+    raissa, 
+    davi, 
+    andrey, 
+    rafael,
+    luana
+} from '../../assets/img';
 
 // Aluno
-const Aluno = props => {
+const Aluno = ({src, name, desc}) => {
     return (
-        <div className="aluno">
-            <div className="image">
-                <img src={props.src} alt="Imagem de um dos Pequenos Talentos."/>
+        <div className={styles.aluno}>
+            <div className={styles.image}>
+                <img src={src} alt="Imagem de um dos Pequenos Talentos."/>
             </div>
-            <div className="description">
-                <h3>{props.name}</h3>
-                <p>{props.desc}</p>
+            <div className={styles.description}>
+                <h3>{name}</h3>
+                <p>{desc}</p>
             </div>
         </div>
     )
 }
 
-
-
 export default function Participantes () {
-
     const [selectedGallery, selectGallery] = useState('');
     
     return (
-        <section id="participantes">
+        <section id="participantes" className={styles.participantes}>
             <Title section="Participantes"/>
 
-            <div className='box-check'>
-                <button aria-label="Ver pequenos" className={selectedGallery ? '' : 'active'} onClick={() => selectGallery('')}>Pequenos</button>
-                <button aria-label="Ver padrinhos" className={selectedGallery ? 'active' : ''} onClick={() => selectGallery('1')}>Padrinhos</button>
+            <div className={styles.switcher}>
+                <button 
+                    aria-label="Ver pequenos"
+                    className={selectedGallery ? undefined : styles.active}
+                    onClick={() => selectGallery('')}
+                >
+                    Pequenos
+                </button>
+                <button
+                    aria-label="Ver padrinhos"
+                    className={selectedGallery ? styles.active : undefined}
+                    onClick={() => selectGallery('1')}
+                >
+                    Padrinhos
+                </button>
             </div>
 
-            <div className='main_wrapper'>
-                <div className={selectedGallery ? 'pequenos' : 'pequenos checked'}>
-                    <div className='wrapper'>
+            <div className={styles.main_wrapper}>
+                <div className={selectedGallery ? styles.pequenos : `${styles.pequenos} ${styles.checked}`}>
+                    <div className={styles.wrapper}>
                         <Aluno
                             src={lawrence} name="Lawrence"
                             desc="Tenho 12 anos e estou na 8ª série no Olavo Hansen. Sou ginasta, gosto de cantar, dançar e escutar música. A minha expectativa para o projeto é que eu consiga programar e fazer aplicativos."
@@ -99,15 +138,11 @@ export default function Participantes () {
                     </div>
                 </div>
 
-                <div className={selectedGallery ? 'padrinhos checked' : 'padrinhos'}>
-                    <div className='wrapper'>
+                <div className={selectedGallery ? `${styles.padrinhos} ${styles.checked}` : styles.padrinhos}>
+                    <div className={styles.wrapper}>
                         <Aluno
                             src={ribas} name="Eduardo Ribas"
                             desc="Tenho 17 anos e estou na 2ª série na ETEC MCM. Tem sido uma ótima experiência auxiliar neste projeto e espero que ele possa impactar positivamente na vida de cada um dos atuais e futuros integrantes."
-                        />
-                        <Aluno
-                            src={gabryel} name="Gabryel Henrique"
-                            desc='Tenho 17 anos e estou no 2° ano do Ensino Médio. No meu tempo livre gosto de jogar, ouvir músicas, cozinhar e caminhar. Estou gostando muito de participar do projeto, está sendo uma experiência incrível ajudar os “Pequenos”.'
                         />
                         <Aluno
                             src={sampaio} name="Gabriel Sampaio"
@@ -124,10 +159,6 @@ export default function Participantes () {
                         <Aluno
                             src={julia} name="Júlia Granado"
                             desc="Tenho 16 anos e curso o 2º ano do Ensino Médio. Em meu tempo livre, gosto muito de escutar música e assistir filmes de terror. Minhas metas são adquirir cada vez mais conhecimento sobre a área de informática e realizar viagens para conhecer diversas culturas ao redor do mundo. Estou amando o projeto, principalmente os pequenos. É muito gratificante a sensação de estar inspirando e ensinando eles!"
-                        />
-                        <Aluno
-                            src={larissa} name="Larissa Mota"
-                            desc='Tenho 17 anos e curso o 3° ano de Administração integrado ao Ensino Médio na ETEC MCM. Gosto de artes, esportes ao ar livre e de ouvir música. No meu tempo livre, eu escrevo, desenho ou ando de bicicleta. Atualmente, pretendo me graduar em Neurociências e vejo esse projeto como uma oportunidade de aprender mais e ajudar os "Pequenos" a seguir nessa trajetória de conhecimento e visão de vida.'
                         />
                         <Aluno
                             src={laura} name="Laura Esther"
@@ -160,6 +191,10 @@ export default function Participantes () {
                         <Aluno
                             src={rafael} name="Rafael Lima"
                             desc='Eu tenho 16 anos, estudo na Etec MCM e curso o 2º ano do Ensino Médio. Entrar para esse projeto está sendo uma experiência inovadora, pois é realmente legal auxiliar para o desenvolvimento do futuro e contribuir para que os pequenos sejam os profissionais que o mercado de trabalho tanto precisa. Tenho ótimas expectativas sobre esse projeto!'
+                        />
+                        <Aluno
+                            src={luana} name="Luana Miron"
+                            desc='Tenho 16 anos, estudo na Etec Maria Cristina Medeiros cursando o 2° ano de Técnico em administração integrado ao ensino médio. No meu tempo livre gosto de ler, cozinhar, jogar e principalmente dançar. Participar do projeto é uma oportunidade incrível para passar  aos pequenos todo o meu conhecimento e ajuda-los em seu futuro.'
                         />
                     </div>
                 </div>

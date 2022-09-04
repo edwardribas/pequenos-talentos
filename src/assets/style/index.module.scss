@@ -1,0 +1,61 @@
+/* Fonts (Brandon Grostesque and Outfit) */
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+@font-face {
+	font-family: "Brandon";
+	src: url("../fonts/Brandon_bld.otf");
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Brandon";
+	src: url("../fonts/Brandon_med.otf");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Brandon";
+	src: url("../fonts/Brandon_reg.otf");
+	font-weight: 200;
+}
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* General */
+html,
+body {
+	overflow-x: hidden;
+	min-height: 100%;
+	font-family: "Outfit", sans-serif;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+	border: 3px solid #fff;
+	background-color: #ffda00;
+	border-radius: 10px;
+}
+
+b {
+	font-weight: 400;
+}
+
+/* Main and Sections */
+section:not(:first-of-type),
+section:first-of-type > div {
+	width: 85%;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 100px 30px 20px;
+}

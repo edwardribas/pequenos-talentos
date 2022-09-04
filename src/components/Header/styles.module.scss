@@ -1,0 +1,184 @@
+header {
+	user-select: none;
+	position: absolute;
+	z-index: 500;
+	width: 100%;
+	background-color: #ffda00;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: .2s ease;
+
+    &.active{
+        position: fixed;
+        top: 0;
+        transform: translateY(0);
+        background-color: rgb(47, 47, 47);
+        animation: showHeader .3s ease;
+
+        nav{
+            .toggler{
+                color: #fff;
+            }
+
+            ul {
+                a, span{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1400px;
+    padding: 0 15px;
+
+    > img{
+        cursor: pointer;
+        max-width: 60px;
+        transition: 0.2s ease;
+    }
+
+    .toggler{
+        display: none;
+        transition: color 0.2s ease;
+    }
+
+    ul{
+        display: flex;
+        gap: 30px;
+
+        li {
+            &.special{
+                display: none;
+            }
+
+            a, span{
+                cursor: pointer;
+                color: #3e3e3f;
+                font-weight: 300;
+                font-size: 0.97rem;
+                transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+            }
+        }
+
+    }
+}
+
+@keyframes showHeader {
+    from{
+		transform: translateY(-70px);
+	}
+	to{
+		transform: translateY(0);
+	}	
+}
+
+@media (max-width: 780px) {
+    nav {
+        .toggler{
+            display: inline-block;
+            cursor: pointer;
+            font-size: 1.2rem;
+            width: 10px;
+            color: #2d2d2d;
+        }
+
+        ul {
+            position: fixed;
+            top: 0;
+            z-index: 600;
+            height: 100vh;
+            width: 80%;
+            box-shadow: 0 0 60px rgba(0, 0, 0, 0.106);
+            gap: 20px;
+            max-width: 240px;
+            padding: 25px 30px 0 20px;
+            flex-direction: column;
+            background-color: #131313;
+            opacity: 0;
+            overflow-y: scroll;
+            visibility: hidden;
+            right: -250px;
+            transition: 0.3s ease;
+
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            &.active{
+                right: 0;
+                opacity: 1;
+                visibility: visible;
+            }
+
+            li {
+                &.special{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-bottom: 10px;
+
+                    i{
+                        display: flex;
+                        cursor: pointer;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        height: 35px;
+                        width: 35px;
+                        color: #fff968;
+                        border: 1px solid #fff968;
+                        transition: background-color 0.3s ease, color 0.3s ease;
+
+                        &:hover{
+                            background-color: #fff968;
+                            color: #242424;
+                        }
+                    }
+                }
+
+                a, span{
+                    cursor: pointer;
+                    display: block;
+                    font-weight: 200;
+                    font-size: 0.95rem;
+                    color: #ececec;
+                    background-color: transparent;
+                    padding: 10px 14px;
+                    border-radius: 10px;
+
+                    &:hover{
+                        background-color: rgba(255, 255, 255, 0.071);
+                        transform: translateX(4px);
+                    }
+                }
+            }
+        }
+    }
+
+    .back {
+		position: fixed;
+		opacity: 0;
+		visibility: hidden;
+		z-index: 550;
+		height: 100vh;
+		inset: 0;
+		background-color: rgba(0, 0, 0, 0.238);
+		transition: 0.3s ease;
+
+        &.active{
+            opacity: 1;
+            visibility: visible;
+        }
+	}
+
+    header.active nav ul {
+		padding-top: 18px;
+	}
+}
