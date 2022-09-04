@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import styles from './styles.module.scss';
 
 // Images
@@ -22,10 +22,6 @@ export default function Header(){
         top: 0,
         behavior: 'smooth'
     })
-
-    useEffect(() => {
-        console.log(activeMenu)
-    }, [activeMenu])
 
     return (
         <header className={activeHeader ? styles.active : undefined}>

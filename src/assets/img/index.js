@@ -20,6 +20,7 @@ export const sampaio = require('./padrinhos/gabrielsampaio.png');
 export const giovanna = require('./padrinhos/giovanna.png');
 export const gustavosilverio = require('./padrinhos/gustavosilverio.png');
 export const julia = require('./padrinhos/juliagranado.png');
+export const eduardo = require('./padrinhos/eduardo.png');
 export const laura = require('./padrinhos/lauraesther.png');
 export const leticia = require('./padrinhos/leticia.png');
 export const nayara = require('./padrinhos/nayara.png');

@@ -29,6 +29,7 @@ import {
     raissa, 
     davi, 
     andrey, 
+    eduardo,
     rafael,
     luana
 } from '../../assets/img';
@@ -195,6 +196,10 @@ export default function Participantes () {
                         <Aluno
                             src={luana} name="Luana Miron"
                             desc='Tenho 16 anos, estudo na Etec Maria Cristina Medeiros cursando o 2° ano de Técnico em administração integrado ao ensino médio. No meu tempo livre gosto de ler, cozinhar, jogar e principalmente dançar. Participar do projeto é uma oportunidade incrível para passar  aos pequenos todo o meu conhecimento e ajuda-los em seu futuro.'
+                        />
+                        <Aluno
+                            src={eduardo} name="Eduardo Lordeiro"
+                            desc='Olá, me chamo Eduardo Lordeiro, tenho 16 anos e atualmente estudo na Etec Maria Cristina Medeiros, cursando o 2° ano do Técnico em Informática integrado ao Ensino Médio. Eu sou muito fã de tecnologia e coisas do tipo, adoro programação e desenvolvimento de jogos. Eu gosto muito de ouvir música, jogar no meu PC, e ler um pouco as vezes. Eu estou no projeto pois a ideia de ajudar pessoas seja da forma que eu puder, sempre foi encantadora.'
                         />
                     </div>
                 </div>
