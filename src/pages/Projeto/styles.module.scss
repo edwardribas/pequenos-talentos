@@ -68,6 +68,73 @@
 	}
 }
 
+.banner_canal{
+	width: 100%;
+	position: relative;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, .20);
+	padding: 90px 20px;
+	color: rgb(230, 230, 230);
+	object-fit: cover;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-bottom: 50px;
+	background-color: transparent;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	transition: transform .4s ease;
+	
+	h2, p, a{
+		width: 90%;
+	}
+	h2{
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 800;
+		font-size: 1.7rem;
+		margin: 0 auto;
+	}
+	p {
+		font-size: 1.2rem;
+		width: 100%;
+		font-weight: 300;
+		max-width: 550px;
+		margin: 0 auto;
+	}
+	a {
+		border-radius: 50px;
+		background-color: #ffda00;
+		color: #000;
+		max-width: 240px;
+		display: block;
+		margin: 10px auto 0;
+		padding: 12px 20px;
+	}
+	&::before{
+		content: '';
+		display: block;
+		z-index: -1;
+		position: absolute;
+		inset: 0;
+		filter: brightness(0.4);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url('../../assets/img/pequenos.jpeg');
+		background-size: cover;
+		transition: filter .35s ease, transform .35s ease;
+	}
+
+	&:hover{
+		transform: translateY(-4px);
+
+		&::before{
+			transform: scale(1.1);
+			filter: brightness(0.4) blur(9px);
+
+		}
+	}
+}
+
 @media (max-width: 940px) {
 	.content {
 		flex-direction: column;

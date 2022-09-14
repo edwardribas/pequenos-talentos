@@ -5,6 +5,21 @@ import Title from '../../components/Title/index.js';
 export default function Projeto () {
     return (
         <section id="projeto" className={styles.projeto}>
+            <div className={styles.banner_canal}>
+                <h2>Aprender nunca foi tão fácil!</h2>
+                <p>
+                    Se inscreva já em nosso novo canal, onde você encontrará muito
+                    conteúdo complementar para seus estudos!
+                </p>
+                <a
+                    href="https://www.youtube.com/channel/UCCBK5UP30vaTiEfK4sZMCEQ"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Visitar
+                </a>
+            </div>
+
             <Title section="Proposta"/>
             <div className={styles.content}>
                 <div className={styles.card}>

@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComputer } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 function Link({href, text, icon}) {
     return (
@@ -35,6 +35,11 @@ export default function Footer () {
                     href="https://tecnologiaunica.com.br/"
                     text="Tecnologia Única"
                     icon={faComputer}
+                />
+                <Link
+                    href="https://www.youtube.com/channel/UCCBK5UP30vaTiEfK4sZMCEQ"
+                    text="Pequenos Talentos"
+                    icon={faYoutube}
                 />
             </div>
         </footer>
