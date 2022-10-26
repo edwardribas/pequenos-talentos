@@ -38,8 +38,8 @@ export default function Projeto () {
                 </div>
                 <div className={styles.text}>
                     <p>
-                        Este é um projeto piloto que inicialmente atende duas escolas estaduais, totalizando 15 alunos.
-                        A proposta é:
+                        Este programa atende algumas escolas estaduais, totalizando 15 alunos. Para o próximo ano, serão mais 15 adolescentes
+                        selecionados. A proposta é:
                     </p>
 
                     <ul>

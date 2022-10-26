@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faComputer } from '@fortawesome/free-solid-svg-icons';
+import { faComputer, faFile } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 function Link({href, text, icon}) {
@@ -40,6 +40,11 @@ export default function Footer () {
                     href="https://www.youtube.com/channel/UCCBK5UP30vaTiEfK4sZMCEQ"
                     text="Pequenos Talentos"
                     icon={faYoutube}
+                />
+                <Link
+                    href="https://forms.gle/WAEPYTYFyGWUzNMY8"
+                    text="Inscrição"
+                    icon={faFile}
                 />
             </div>
         </footer>
