@@ -1,9 +1,6 @@
-.participantes{
-	text-align: center;
-}
-
 .switcher{
-	display: inline-flex;
+
+    display: flex;
 
     button {
         border: 2px solid #3e3e3f;
@@ -26,6 +23,17 @@
 
         &:nth-of-type(2){
             border-left: none;
+            margin-right: 65%;
+            border-radius: 0 10px 10px 0;
+        }
+        &:nth-of-type(3){
+            border-left: none;
+            margin-right: 0;
+            border-radius: 0 10px 10px 0;
+        }
+        &:nth-of-type(4){
+            border-left: none;
+            margin-right: 0;
             border-radius: 0 10px 10px 0;
         }
 
@@ -33,9 +41,45 @@
             background-color: #3e3e3f;
             color: #fff;
         }
+        
+        &.active2023{
+            background-color: #eeff00;
+            color: rgb(7, 7, 7);
+        }
     }
 
-    @media(max-width: 350px){
+    @media(max-width: 994px){
+
+        button{
+            &:nth-of-type(1){
+                border-right: none;
+                border-radius: 10px 0 0 10px;
+            }
+    
+            &:nth-of-type(2){
+                border-left: none;
+                margin-right: 40%;
+                border-radius: 0 10px 10px 0;
+            }
+        }
+    }
+    @media(max-width: 660px){
+
+        button{
+            &:nth-of-type(1){
+                border-right: none;
+                border-radius: 10px 0 0 10px;
+            }
+    
+            &:nth-of-type(2){
+                border-left: none;
+                margin-right: 3%;
+                border-radius: 0 10px 10px 0;
+            }
+        }
+    }
+    @media(max-width: 400px){
+        display: inline-flex;
         width: 100%;
         flex-direction: column;
         max-width: 200px;
@@ -50,6 +94,7 @@
             &:nth-of-type(2){
                 border-left: 2px solid #3e3e3f;
                 border-top: none;
+                width: inherit;
                 border-radius: 0 0 10px 10px;
             }
         }
@@ -100,6 +145,18 @@
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     }
 }
+.wrapper23{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	place-items: flex-start center;
+	gap: 60px 80px;
+	width: 100%;
+	margin: 0 auto;
+
+    @media (max-width: 780px) {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+}
 
 .aluno{
     width: 100%;
@@ -110,7 +167,6 @@
         border-radius: 10px;
         user-select: none;
         overflow: hidden;
-        margin: 0 auto;
     }
 
     img{
